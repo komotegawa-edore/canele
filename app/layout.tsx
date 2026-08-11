@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "フランス・ボルドー生まれの伝統菓子カヌレの魅力をお届けします。外はカリッと、中はしっとり。小さな一粒に詰まった歴史と味わいの物語。",
   icons: {
-    icon: "/images/canele.png",
+    icon: "/images/canele.webp",
   },
 };
 

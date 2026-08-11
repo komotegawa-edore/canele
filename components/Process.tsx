@@ -66,7 +66,7 @@ export default function Process() {
           <div className="flex-1 flex justify-center order-1 lg:order-2">
             <div className="sticker-alt lg:sticky lg:top-24">
               <ImagePlaceholder
-                src="/images/canele-baking.png"
+                src="/images/canele-baking.webp"
                 alt="カヌレの焼き上がり"
                 width={600}
                 height={500}

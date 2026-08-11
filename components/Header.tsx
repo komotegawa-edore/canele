@@ -19,7 +19,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center">
           <Image
-            src="/images/logo.png"
+            src="/images/logo.webp"
             alt="Canelé"
             width={120}
             height={40}

@@ -16,7 +16,7 @@ export default function Story() {
           <div className="flex-1 flex justify-center">
             <div className="sticker">
               <ImagePlaceholder
-                src="/images/bordeaux-street.png"
+                src="/images/bordeaux-street.webp"
                 alt="ボルドーの街並み"
                 width={600}
                 height={400}

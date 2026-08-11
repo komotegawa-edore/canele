@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="py-16 bg-fabric-dark text-white/60 relative stitch-border-top">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <Image
-          src="/images/logo.png"
+          src="/images/logo.webp"
           alt="Canelé"
           width={120}
           height={40}

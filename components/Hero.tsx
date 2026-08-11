@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="flex-1 flex justify-center">
             <div className="sticker-alt">
               <Image
-                src="/images/canele.png"
+                src="/images/canele.webp"
                 alt="カヌレ"
                 width={500}
                 height={500}

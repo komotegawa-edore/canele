@@ -43,7 +43,7 @@ export default function Ingredients() {
           <div className="flex-1 flex justify-center">
             <div className="sticker md:sticky md:top-24">
               <ImagePlaceholder
-                src="/images/ingredients.png"
+                src="/images/ingredients.webp"
                 alt="カヌレの材料"
                 width={600}
                 height={400}

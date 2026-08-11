@@ -16,7 +16,7 @@ export default function Texture() {
           <div className="flex-1 flex justify-center">
             <div className="sticker-alt">
               <ImagePlaceholder
-                src="/images/canele-cutaway.png"
+                src="/images/canele-cutaway.webp"
                 alt="カヌレの断面"
                 width={600}
                 height={400}

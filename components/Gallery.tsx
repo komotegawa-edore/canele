@@ -2,21 +2,21 @@ import ImagePlaceholder from "./ImagePlaceholder";
 
 const galleryItems = [
   {
-    src: "/images/canele-coffee.png",
+    src: "/images/canele-coffee.webp",
     alt: "カヌレとコーヒー",
     width: 600,
     height: 400,
     rotate: "sticker",
   },
   {
-    src: "/images/canele-lineup.png",
+    src: "/images/canele-lineup.webp",
     alt: "並んだカヌレ",
     width: 600,
     height: 400,
     rotate: "sticker-alt",
   },
   {
-    src: "/images/canele-table.png",
+    src: "/images/canele-table.webp",
     alt: "テーブルの上のカヌレ",
     width: 600,
     height: 400,
