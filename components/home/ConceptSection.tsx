@@ -29,7 +29,7 @@ const kodawari = [
     subtitle: "COMMUNITY",
     image: "/images/canele-coffee.webp",
     alt: "カヌレとコーヒー",
-    body: "カヌレ好きという共通点で集まった仲間たち。\n\n学年や学部を超えた多様なメンバーが、お菓子を囲みながら楽しい時間を共有しています。気軽に参加できるコミュニティです。",
+    body: "学年や学部を超えた多様なメンバーが、楽しい時間を共有しています。\n\n気軽に参加できるコミュニティです。",
     imageLeft: true,
   },
 ];
