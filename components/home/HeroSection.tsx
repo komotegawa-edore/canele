@@ -6,10 +6,10 @@ import Image from "next/image";
 import { circleInfo } from "@/data/circleInfo";
 
 const heroImages = [
-  { src: "/images/canele.webp", alt: "カヌレ" },
-  { src: "/images/bbq.webp", alt: "BBQイベント" },
-  { src: "/images/canele-lineup.webp", alt: "並んだカヌレ" },
-  { src: "/images/campus.webp", alt: "キャンパスでの交流" },
+  { src: "/images/canele-trio.webp", alt: "カヌレ" },
+  { src: "/images/cafe.webp", alt: "カフェでの交流" },
+  { src: "/images/canele-rack.webp", alt: "焼き上がったカヌレ" },
+  { src: "/images/hanami.webp", alt: "花見イベント" },
 ];
 
 export default function HeroSection() {

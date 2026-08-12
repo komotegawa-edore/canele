@@ -15,19 +15,19 @@ const activities = [
     name: "学園祭出店",
     description: "本格的なカヌレの出店を目指す",
     image: "/images/canele-lineup.webp",
-    alt: "学園祭",
+    alt: "並んだカヌレ",
   },
   {
     name: "カフェ巡り",
     description: "おすすめのお店を開拓しに街へ",
-    image: "/images/campus.webp",
-    alt: "キャンパスでの交流",
+    image: "/images/cafe.webp",
+    alt: "カフェでの交流",
   },
   {
     name: "季節イベント",
     description: "花見・ハロウィン・クリスマス会など",
-    image: "/images/canele-cutaway.webp",
-    alt: "季節イベント",
+    image: "/images/hanami.webp",
+    alt: "花見",
   },
 ];
 

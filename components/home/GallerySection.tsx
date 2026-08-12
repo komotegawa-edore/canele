@@ -9,13 +9,16 @@ import "swiper/css/pagination";
 import SectionTitle from "@/components/common/SectionTitle";
 
 const galleryImages = [
-  { src: "/images/bbq.webp", alt: "BBQイベント" },
+  { src: "/images/canele-trio.webp", alt: "カヌレ" },
+  { src: "/images/cafe.webp", alt: "カフェでの交流" },
   { src: "/images/canele-lineup.webp", alt: "並んだカヌレ" },
-  { src: "/images/campus.webp", alt: "キャンパスでの交流" },
-  { src: "/images/canele-coffee.webp", alt: "カヌレとコーヒー" },
+  { src: "/images/canele-coffee.webp", alt: "カヌレとラテ" },
   { src: "/images/canele-cutaway.webp", alt: "カヌレの断面" },
-  { src: "/images/bordeaux-street.webp", alt: "ボルドーの街並み" },
+  { src: "/images/canele-rack.webp", alt: "焼き上がったカヌレ" },
+  { src: "/images/hanami.webp", alt: "花見イベント" },
   { src: "/images/canele-table.webp", alt: "テーブルの上のカヌレ" },
+  { src: "/images/bbq.webp", alt: "BBQイベント" },
+  { src: "/images/campus.webp", alt: "キャンパス" },
 ];
 
 export default function GallerySection() {
