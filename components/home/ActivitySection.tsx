@@ -8,7 +8,7 @@ const activities = [
   {
     name: "BBQ・ご飯会",
     description: "みんなで集まって美味しいものを食べる",
-    image: "/images/bbq.webp",
+    image: null,
     alt: "BBQイベント",
   },
   {
@@ -16,18 +16,6 @@ const activities = [
     description: "本格的なカヌレの出店を目指す",
     image: "/images/canele-lineup.webp",
     alt: "並んだカヌレ",
-  },
-  {
-    name: "カフェ巡り",
-    description: "おすすめのお店を開拓しに街へ",
-    image: "/images/cafe.webp",
-    alt: "カフェでの交流",
-  },
-  {
-    name: "季節イベント",
-    description: "花見・ハロウィン・クリスマス会など",
-    image: "/images/hanami.webp",
-    alt: "花見",
   },
 ];
 
@@ -48,7 +36,7 @@ export default function ActivitySection() {
         </motion.div>
 
         {/* 4-card grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 max-w-2xl mx-auto">
           {activities.map((item, i) => (
             <motion.div
               key={item.name}
@@ -59,13 +47,19 @@ export default function ActivitySection() {
               transition={{ duration: 0.6, delay: i * 0.15 }}
             >
               <div className="aspect-square relative overflow-hidden rounded-lg bg-white shadow-sm">
-                <Image
-                  src={item.image}
-                  alt={item.alt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+                {item.image ? (
+                  <Image
+                    src={item.image}
+                    alt={item.alt}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center bg-[#f5f0e8]">
+                    <span className="text-caramel/40 font-playfair text-xs tracking-widest">PHOTO</span>
+                  </div>
+                )}
               </div>
               <h3 className="text-sm font-bold text-dark-brown mt-3 mb-1 group-hover:text-caramel transition-colors">
                 {item.name}

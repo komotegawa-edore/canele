@@ -9,15 +9,12 @@ import "swiper/css/pagination";
 import SectionTitle from "@/components/common/SectionTitle";
 
 const galleryImages = [
-  { src: "/images/canele-trio.webp", alt: "カヌレ" },
-  { src: "/images/cafe.webp", alt: "カフェでの交流" },
+  { src: "/images/canele.webp", alt: "カヌレ" },
   { src: "/images/canele-lineup.webp", alt: "並んだカヌレ" },
-  { src: "/images/canele-coffee.webp", alt: "カヌレとラテ" },
-  { src: "/images/canele-rack.webp", alt: "焼き上がったカヌレ" },
-  { src: "/images/hanami.webp", alt: "花見イベント" },
-  { src: "/images/canele-table.webp", alt: "テーブルの上のカヌレ" },
-  { src: "/images/bbq.webp", alt: "BBQイベント" },
-  { src: "/images/campus.webp", alt: "キャンパス" },
+  { src: "/images/canele-table.webp", alt: "ティースタンドのカヌレ" },
+  { src: "/images/canele-baking.webp", alt: "銅型で焼くカヌレ" },
+  { src: "/images/canele-cutaway.webp", alt: "カヌレの断面" },
+  { src: "/images/ingredients.webp", alt: "カヌレの材料" },
 ];
 
 export default function GallerySection() {
