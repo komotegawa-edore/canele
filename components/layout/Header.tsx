@@ -45,23 +45,23 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden relative z-50 flex flex-col gap-1.5 p-2"
+            className="md:hidden relative z-50 w-10 h-10 flex items-center justify-center"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="メニューを開く"
           >
             <span
-              className={`block w-6 h-[2px] bg-dark-brown transition-transform duration-300 ${
-                isOpen ? "rotate-45 translate-y-[7px]" : ""
+              className={`absolute w-6 h-[2px] bg-dark-brown transition-all duration-300 ${
+                isOpen ? "rotate-45" : "-translate-y-2"
               }`}
             />
             <span
-              className={`block w-6 h-[2px] bg-dark-brown transition-opacity duration-300 ${
+              className={`absolute w-6 h-[2px] bg-dark-brown transition-all duration-300 ${
                 isOpen ? "opacity-0" : ""
               }`}
             />
             <span
-              className={`block w-6 h-[2px] bg-dark-brown transition-transform duration-300 ${
-                isOpen ? "-rotate-45 -translate-y-[7px]" : ""
+              className={`absolute w-6 h-[2px] bg-dark-brown transition-all duration-300 ${
+                isOpen ? "-rotate-45" : "translate-y-2"
               }`}
             />
           </button>
