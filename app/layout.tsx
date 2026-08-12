@@ -15,12 +15,39 @@ const notoSerifJP = Noto_Serif_JP({
   display: "swap",
 });
 
+const siteUrl = "https://caneleou.jp";
+const siteName = "Canelé - カヌレサークル";
+const siteDescription =
+  "大学カヌレサークル「Canelé」の公式サイト。フランス伝統菓子カヌレの研究・製造からイベント企画まで、お菓子を通じたコミュニティ活動を行っています。";
+
 export const metadata: Metadata = {
-  title: "Canelé - カヌレサークル",
-  description:
-    "大学カヌレサークル「Canelé」の公式サイト。フランス伝統菓子カヌレの研究・製造からイベント企画まで、お菓子を通じたコミュニティ活動を行っています。",
+  metadataBase: new URL(siteUrl),
+  title: siteName,
+  description: siteDescription,
   icons: {
     icon: "/images/canele.webp",
+  },
+  openGraph: {
+    type: "website",
+    locale: "ja_JP",
+    url: siteUrl,
+    siteName,
+    title: siteName,
+    description: siteDescription,
+    images: [
+      {
+        url: "/images/ogp.png",
+        width: 1200,
+        height: 630,
+        alt: siteName,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteName,
+    description: siteDescription,
+    images: ["/images/ogp.png"],
   },
 };
 
