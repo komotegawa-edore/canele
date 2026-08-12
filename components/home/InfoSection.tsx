@@ -9,7 +9,6 @@ export default function InfoSection() {
     { label: "サークル名", value: `${circleInfo.name}（${circleInfo.nameJa}）` },
     { label: "設立", value: circleInfo.founded },
     { label: "所属大学", value: circleInfo.university },
-    { label: "活動頻度", value: "月2〜3回" },
     {
       label: "SNS",
       value: (
