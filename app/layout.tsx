@@ -16,9 +16,9 @@ const notoSerifJP = Noto_Serif_JP({
 });
 
 const siteUrl = "https://caneleou.jp";
-const siteName = "Canelé - カヌレサークル";
+const siteName = "Canelé - カヌレ";
 const siteDescription =
-  "大学カヌレサークル「Canelé」の公式サイト。フランス伝統菓子カヌレの研究・製造からイベント企画まで、お菓子を通じたコミュニティ活動を行っています。";
+  "大学カヌレ「Canelé」の公式サイト。フランス伝統菓子カヌレの研究・製造からイベント企画まで、お菓子を通じたコミュニティ活動を行っています。";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
