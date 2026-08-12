@@ -8,8 +8,8 @@ const activities = [
   {
     name: "BBQ・ご飯会",
     description: "みんなで集まって美味しいものを食べる",
-    image: "/images/canele-table.webp",
-    alt: "交流イベント",
+    image: "/images/bbq.webp",
+    alt: "BBQイベント",
   },
   {
     name: "学園祭出店",
@@ -20,8 +20,8 @@ const activities = [
   {
     name: "カフェ巡り",
     description: "おすすめのお店を開拓しに街へ",
-    image: "/images/canele-coffee.webp",
-    alt: "カフェ巡り",
+    image: "/images/campus.webp",
+    alt: "キャンパスでの交流",
   },
   {
     name: "季節イベント",

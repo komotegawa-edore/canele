@@ -7,8 +7,9 @@ import { circleInfo } from "@/data/circleInfo";
 
 const heroImages = [
   { src: "/images/canele.webp", alt: "カヌレ" },
-  { src: "/images/canele-coffee.webp", alt: "カヌレとコーヒー" },
+  { src: "/images/bbq.webp", alt: "BBQイベント" },
   { src: "/images/canele-lineup.webp", alt: "並んだカヌレ" },
+  { src: "/images/campus.webp", alt: "キャンパスでの交流" },
 ];
 
 export default function HeroSection() {
