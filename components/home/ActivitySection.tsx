@@ -6,28 +6,28 @@ import SectionTitle from "@/components/common/SectionTitle";
 
 const activities = [
   {
-    name: "交流イベント",
-    description: "BBQや食べ比べ会で仲間との絆を深める",
+    name: "BBQ・ご飯会",
+    description: "みんなで集まって美味しいものを食べる",
     image: "/images/canele-table.webp",
-    alt: "テーブルの上のカヌレ",
+    alt: "交流イベント",
   },
   {
     name: "学園祭出店",
-    description: "みんなで学園祭を盛り上げる",
+    description: "カヌレ堂と提携した本格出店を目指す",
     image: "/images/canele-lineup.webp",
-    alt: "並んだカヌレ",
+    alt: "学園祭",
   },
   {
     name: "カフェ巡り",
-    description: "おすすめのカヌレを探しに街へ",
+    description: "おすすめのお店を開拓しに街へ",
     image: "/images/canele-coffee.webp",
-    alt: "カヌレとコーヒー",
+    alt: "カフェ巡り",
   },
   {
-    name: "お菓子パーティー",
-    description: "持ち寄りスイーツでわいわい交流",
+    name: "季節イベント",
+    description: "花見・ハロウィン・クリスマス会など",
     image: "/images/canele-cutaway.webp",
-    alt: "カヌレの断面",
+    alt: "季節イベント",
   },
 ];
 

@@ -7,29 +7,29 @@ import SectionTitle from "@/components/common/SectionTitle";
 const kodawari = [
   {
     number: "01",
-    title: "カヌレ",
-    subtitle: "CANELÉ DE BORDEAUX",
-    image: "/images/bordeaux-street.webp",
-    alt: "ボルドーの街並み",
-    body: "フランス・ボルドー発祥の伝統菓子「カヌレ」。\n\n外はカリッと、中はもっちりとした独特の食感。バニラとラム酒が織りなす芳醇な香り。\n\n私たちはこのお菓子の魅力に惹かれて集まった仲間たちです。",
+    title: "つながり",
+    subtitle: "COMMUNITY",
+    image: "/images/canele-coffee.webp",
+    alt: "仲間との交流",
+    body: "カヌレをきっかけに集まった、学年も学部もバラバラな仲間たち。\n\nふだんはBBQやご飯会、カフェ巡りなど、大学生活を一緒に楽しんでいます。気軽に来て、気軽に楽しめる。そんなサークルです。",
     imageLeft: true,
   },
   {
     number: "02",
-    title: "イベント",
-    subtitle: "EVENTS & ACTIVITIES",
+    title: "学園祭",
+    subtitle: "UNIVERSITY FESTIVAL",
     image: "/images/canele-table.webp",
-    alt: "テーブルの上のカヌレ",
-    body: "バーベキューや食べ比べ会、交流イベントなど、メンバー同士のつながりを深める活動を大切にしています。\n\n学園祭への出店や他サークルとのコラボなど、カヌレをきっかけにさまざまな企画を楽しんでいます。",
+    alt: "学園祭の様子",
+    body: "学園祭では、カヌレ専門店「カヌレ堂」と提携した本格的な出店を計画しています。\n\nサークル名を冠するからには、カヌレに対しても真剣に。プロの味をキャンパスに届けることが、私たちの目標です。",
     imageLeft: false,
   },
   {
     number: "03",
-    title: "仲間",
-    subtitle: "COMMUNITY",
-    image: "/images/canele-coffee.webp",
-    alt: "カヌレとコーヒー",
-    body: "学年や学部を超えた多様なメンバーが、楽しい時間を共有しています。\n\n気軽に参加できるコミュニティです。",
+    title: "カヌレ",
+    subtitle: "CANELÉ DE BORDEAUX",
+    image: "/images/bordeaux-street.webp",
+    alt: "ボルドーの街並み",
+    body: "外はカリッと、中はもっちり。バニラとラム酒が香るフランス・ボルドー生まれの伝統菓子。\n\nこの小さなお菓子のことをもっと知りたい、もっと広めたい。その気持ちが、私たちの活動の原点です。",
     imageLeft: true,
   },
 ];
@@ -60,7 +60,7 @@ export default function ConceptSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <p className="text-sm md:text-base leading-loose text-dark-brown/70 whitespace-pre-line">
-            {`カヌレが好き、という気持ちから。\nイベントを通じた交流、\nそしてお菓子がつなぐ仲間の輪。`}
+            {`カヌレの名のもとに集まった仲間と、\n本気で楽しむ大学生活。`}
           </p>
         </motion.blockquote>
 
