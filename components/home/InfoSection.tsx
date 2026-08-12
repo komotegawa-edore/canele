@@ -10,7 +10,6 @@ export default function InfoSection() {
     { label: "設立", value: circleInfo.founded },
     { label: "所属大学", value: circleInfo.university },
     { label: "活動頻度", value: "月2〜3回" },
-    { label: "活動場所", value: "大学内調理実習室 ほか" },
     {
       label: "SNS",
       value: (

@@ -11,7 +11,7 @@ const kodawari = [
     subtitle: "CANELÉ DE BORDEAUX",
     image: "/images/bordeaux-street.webp",
     alt: "ボルドーの街並み",
-    body: "フランス・ボルドー発祥の伝統菓子「カヌレ」。\n\n外はカリッと、中はもっちりとした独特の食感。バニラとラム酒が織りなす芳醇な香り。\n\n私たちは、このシンプルでありながら奥深いお菓子の魅力に惹かれ、日々研究と製造に取り組んでいます。",
+    body: "フランス・ボルドー発祥の伝統菓子「カヌレ」。\n\n外はカリッと、中はもっちりとした独特の食感。バニラとラム酒が織りなす芳醇な香り。\n\n私たちはこのお菓子の魅力に惹かれて集まった仲間たちです。",
     imageLeft: true,
   },
   {
@@ -20,7 +20,7 @@ const kodawari = [
     subtitle: "EVENTS & ACTIVITIES",
     image: "/images/canele-table.webp",
     alt: "テーブルの上のカヌレ",
-    body: "カヌレづくりだけでなく、バーベキューや交流イベントなど、メンバー同士のつながりを深める活動も大切にしています。\n\n学園祭への出店や、他サークルとのコラボイベントなど、お菓子を通じたさまざまな企画を行っています。",
+    body: "バーベキューや食べ比べ会、交流イベントなど、メンバー同士のつながりを深める活動を大切にしています。\n\n学園祭への出店や他サークルとのコラボなど、カヌレをきっかけにさまざまな企画を楽しんでいます。",
     imageLeft: false,
   },
   {
@@ -29,7 +29,7 @@ const kodawari = [
     subtitle: "COMMUNITY",
     image: "/images/canele-coffee.webp",
     alt: "カヌレとコーヒー",
-    body: "カヌレを通じて集まった仲間たち。\n\n学年や学部を超えた多様なメンバーが、ものづくりの楽しさを共有しています。初心者も経験者も関係なく、お菓子が好きという気持ちでつながるコミュニティです。",
+    body: "カヌレ好きという共通点で集まった仲間たち。\n\n学年や学部を超えた多様なメンバーが、お菓子を囲みながら楽しい時間を共有しています。気軽に参加できるコミュニティです。",
     imageLeft: true,
   },
 ];
@@ -60,7 +60,7 @@ export default function ConceptSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <p className="text-sm md:text-base leading-loose text-dark-brown/70 whitespace-pre-line">
-            {`カヌレへの情熱、\nイベントを通じた交流、\nそしてお菓子がつなぐ仲間の輪。`}
+            {`カヌレが好き、という気持ちから。\nイベントを通じた交流、\nそしてお菓子がつなぐ仲間の輪。`}
           </p>
         </motion.blockquote>
 

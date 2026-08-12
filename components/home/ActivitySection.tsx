@@ -6,28 +6,28 @@ import SectionTitle from "@/components/common/SectionTitle";
 
 const activities = [
   {
-    name: "カヌレ研究・製造",
-    description: "レシピの研究と本格カヌレづくりに挑戦",
-    image: "/images/canele-cutaway.webp",
-    alt: "カヌレの断面",
-  },
-  {
-    name: "交流イベント企画",
+    name: "交流イベント",
     description: "BBQや食べ比べ会で仲間との絆を深める",
     image: "/images/canele-table.webp",
     alt: "テーブルの上のカヌレ",
   },
   {
     name: "学園祭出店",
-    description: "自慢のカヌレを学園祭で販売",
+    description: "カヌレの販売で学園祭を盛り上げる",
     image: "/images/canele-lineup.webp",
     alt: "並んだカヌレ",
   },
   {
-    name: "ワークショップ",
-    description: "カヌレの作り方を学べる体験イベント",
-    image: "/images/ingredients.webp",
-    alt: "カヌレの材料",
+    name: "カフェ巡り",
+    description: "おすすめのカヌレを探しに街へ",
+    image: "/images/canele-coffee.webp",
+    alt: "カヌレとコーヒー",
+  },
+  {
+    name: "お菓子パーティー",
+    description: "持ち寄りスイーツでわいわい交流",
+    image: "/images/canele-cutaway.webp",
+    alt: "カヌレの断面",
   },
 ];
 
