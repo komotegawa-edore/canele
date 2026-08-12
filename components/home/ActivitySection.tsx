@@ -13,7 +13,7 @@ const activities = [
   },
   {
     name: "学園祭出店",
-    description: "カヌレ堂と提携した本格出店を目指す",
+    description: "本格的なカヌレの出店を目指す",
     image: "/images/canele-lineup.webp",
     alt: "学園祭",
   },
