@@ -15,7 +15,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f0e8]/95 backdrop-blur-sm stitch-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f0e8]/95 backdrop-blur-sm stitch-border" style={{ zIndex: 50 }}>
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center">
@@ -69,25 +69,36 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile nav - slides down */}
-      <nav
-        className={`md:hidden bg-[#f5f0e8] border-t border-dashed border-caramel/30 transition-all duration-300 overflow-hidden ${
-          isOpen ? "max-h-80" : "max-h-0"
+      {/* Mobile nav - fullscreen overlay with blur */}
+      <div
+        className={`md:hidden fixed inset-0 top-16 z-40 transition-all duration-300 ${
+          isOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
         }`}
       >
-        <div className="flex flex-col py-4">
-          {navLinks.map((link) => (
+        {/* Blurred backdrop */}
+        <div className="absolute inset-0 bg-[#f5f0e8]/80 backdrop-blur-md" />
+
+        {/* Nav links */}
+        <nav className="relative z-10 flex flex-col items-center justify-center h-full gap-2">
+          {navLinks.map((link, i) => (
             <a
               key={link.href}
               href={link.href}
-              className="px-6 py-3 text-sm tracking-widest text-dark-brown/70 hover:text-caramel transition-colors font-playfair"
+              className={`text-lg tracking-widest text-dark-brown/80 hover:text-caramel transition-all duration-300 font-playfair py-3 ${
+                isOpen
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-4"
+              }`}
+              style={{ transitionDelay: isOpen ? `${i * 60}ms` : "0ms" }}
               onClick={() => setIsOpen(false)}
             >
               {link.label}
             </a>
           ))}
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
   );
 }
