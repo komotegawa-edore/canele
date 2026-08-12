@@ -125,3 +125,12 @@ body {
   margin-left: 8px;
   transform: translateY(-50%);
 }
+
+/* Swiper custom styles */
+.swiper-pagination-bullet {
+  background: #3D2B1F !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #A0622E !important;
+}

@@ -16,9 +16,9 @@ const notoSerifJP = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Canelé - 小さなお菓子に、大きな物語。",
+  title: "Canelé - カヌレサークル",
   description:
-    "フランス・ボルドー生まれの伝統菓子カヌレの魅力をお届けします。外はカリッと、中はしっとり。小さな一粒に詰まった歴史と味わいの物語。",
+    "大学カヌレサークル「Canelé」の公式サイト。フランス伝統菓子カヌレの研究・製造からイベント企画まで、お菓子を通じたコミュニティ活動を行っています。",
   icons: {
     icon: "/images/canele.webp",
   },
