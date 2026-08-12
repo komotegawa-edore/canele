@@ -9,6 +9,7 @@ export default function InfoSection() {
     { label: "サークル名", value: `${circleInfo.name}（${circleInfo.nameJa}）` },
     { label: "設立", value: circleInfo.founded },
     { label: "所属大学", value: circleInfo.university },
+    { label: "運営メンバー", value: "表川知由 / 巽優成" },
     {
       label: "SNS",
       value: (
