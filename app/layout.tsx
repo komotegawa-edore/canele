@@ -16,16 +16,22 @@ const notoSerifJP = Noto_Serif_JP({
 });
 
 const siteUrl = "https://caneleou.jp";
-const siteName = "Canelé - カヌレ";
+const siteName = "Canelé（カヌレ）| 大阪大学のサークル";
 const siteDescription =
-  "大学カヌレ「Canelé」の公式サイト。フランス伝統菓子カヌレの研究・製造からイベント企画まで、お菓子を通じたコミュニティ活動を行っています。";
+  "大阪大学のサークル「Canelé（カヌレ）」公式サイト。BBQや旅行、スポーツなど自由に楽しむ学生サークルです。学園祭ではカヌレの出店も予定しています。";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: siteName,
+  title: {
+    default: siteName,
+    template: "%s | Canelé - 大阪大学サークル",
+  },
   description: siteDescription,
   icons: {
     icon: "/images/canele.webp",
+  },
+  alternates: {
+    canonical: siteUrl,
   },
   openGraph: {
     type: "website",
@@ -51,6 +57,28 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      name: "Canelé（カヌレ）",
+      url: siteUrl,
+      logo: `${siteUrl}/images/logo.webp`,
+      sameAs: ["https://www.instagram.com/canele_circle/"],
+      parentOrganization: {
+        "@type": "CollegeOrUniversity",
+        name: "大阪大学",
+      },
+    },
+    {
+      "@type": "WebSite",
+      name: siteName,
+      url: siteUrl,
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -58,6 +86,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" className={`${playfair.variable} ${notoSerifJP.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="font-noto antialiased">{children}</body>
     </html>
   );

@@ -8,6 +8,7 @@ const navLinks = [
   { href: "#activity", label: "活動" },
   { href: "#news", label: "お知らせ" },
   { href: "#gallery", label: "ギャラリー" },
+  { href: "/blog", label: "ブログ" },
   { href: "#contact", label: "お問い合わせ" },
 ];
 

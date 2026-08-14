@@ -3,7 +3,13 @@
 import { motion } from "framer-motion";
 import SectionTitle from "@/components/common/SectionTitle";
 
-const newsItems = [
+export type NewsItem = {
+  date: string;
+  title: string;
+  summary: string;
+};
+
+const fallbackNews: NewsItem[] = [
   {
     date: "2026.11.01",
     title: "まちかね祭出店に向けて準備中",
@@ -24,7 +30,9 @@ const newsItems = [
   },
 ];
 
-export default function NewsSection() {
+export default function NewsSection({ news }: { news?: NewsItem[] }) {
+  const newsItems = news && news.length > 0 ? news : fallbackNews;
+
   return (
     <section
       id="news"

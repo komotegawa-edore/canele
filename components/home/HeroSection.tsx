@@ -76,14 +76,14 @@ export default function HeroSection() {
           CANELÉ CIRCLE
         </motion.p>
 
-        <motion.p
+        <motion.h1
           className="text-sm md:text-base text-dark-brown/70 tracking-widest"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.9 }}
         >
           {circleInfo.catchphrase}
-        </motion.p>
+        </motion.h1>
 
         <motion.div
           className="mt-10"

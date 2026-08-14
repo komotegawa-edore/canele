@@ -35,6 +35,7 @@ export default function Footer() {
                 { href: "#activity", label: "活動" },
                 { href: "#news", label: "お知らせ" },
                 { href: "#gallery", label: "ギャラリー" },
+                { href: "/blog", label: "ブログ" },
                 { href: "#contact", label: "お問い合わせ" },
               ].map((link) => (
                 <li key={link.href + link.label}>
