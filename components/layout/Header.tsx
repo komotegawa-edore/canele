@@ -4,12 +4,12 @@ import { useState } from "react";
 import Image from "next/image";
 
 const navLinks = [
-  { href: "#concept", label: "こだわり" },
-  { href: "#activity", label: "活動" },
-  { href: "#news", label: "お知らせ" },
-  { href: "#gallery", label: "ギャラリー" },
+  { href: "/#concept", label: "こだわり" },
+  { href: "/#activity", label: "活動" },
+  { href: "/#news", label: "お知らせ" },
+  { href: "/#gallery", label: "ギャラリー" },
   { href: "/blog", label: "ブログ" },
-  { href: "#contact", label: "お問い合わせ" },
+  { href: "/#contact", label: "お問い合わせ" },
 ];
 
 export default function Header() {
@@ -20,7 +20,7 @@ export default function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f0e8]/95 backdrop-blur-sm stitch-border">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center">
+          <a href="/" className="flex items-center">
             <Image
               src="/images/logo.webp"
               alt="Canelé"
